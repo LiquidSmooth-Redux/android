@@ -48,10 +48,10 @@
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0" name="UBERTC/arm-eabi-7.0" remote="bb" revision="master" />  
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />  
-<project path="vendor/cmsdk" name="cm_platform_sdk" remote="ls" revision="mm6.0" >
-<project path="system/core" name="android_system_core" remote="ls" revision="mm6.0" >
-<project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="ls" revision="mm6.0" >
-<project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="ls" revision="mm6.0" >
+<project path="vendor/cmsdk" name="cm_platform_sdk" remote="ls" revision="mm6.0" />
+<project path="system/core" name="android_system_core" remote="ls" revision="mm6.0" />
+<project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="ls" revision="mm6.0" />
+<project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="ls" revision="mm6.0" />
 <!-- END LIQUIDSMOOTH -->
 
 <!-- BEGIN CYANOGENMOD -->
