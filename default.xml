@@ -27,9 +27,15 @@
            sync-j="4" />
 
 <!-- BEGIN LIQUIDSMOOTH -->
-  <project path="build" name="android_build" remote="ls" revision="mm6.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+
+<project path="device/nextbit/ether" name="android_device_nextbit_ether" remote="ls" revision="mm6.0" />
+<project path="kernel/nextbit/msm8992" name="Cyanogenmod/android_kernel_nextbit_msm8992" />
+<project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" />
+<project path="vendor/nextbit" name="TheMuppets/proprietary_vendor_nextbit" />
+
+<project path="build" name="android_build" remote="ls" revision="mm6.0" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
 <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="mm6.0" />
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="mm6.0" />
 <project path="android" name="android" remote="ls" revision="mm6.0" />
