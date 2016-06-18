@@ -39,7 +39,7 @@ Repositories:
 Before you continue --> run this in the terminal
 
 
-    repo init -u git://github.com/t-rex600/android.git -b mm6.0
+    repo init -u git://github.com/LiquidSmooth-Redux/android.git -b mm6.0
 
     repo sync
     
